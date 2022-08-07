@@ -10,6 +10,15 @@ export class AppComponent {
 
   counterNumber = 0;
 
+  reset(){
+    this.counterNumber = 0;
+  }
 
+  increse(){
+    this.counterNumber = this.counterNumber + 1;
+  }
 
+  decrese(){
+    this.counterNumber = this.counterNumber - 1;
+  }
 }
